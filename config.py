@@ -1,0 +1,10 @@
+OPENAI_MODEL = "gpt-4o-mini"
+OPENAI_TEMPERATURE = 0
+PDF_URL = "https://www.omnipod.com/sites/default/files/Omnipod-5_User-guide.pdf"
+PDF_PATH = "data/raw/op5_guide.pdf"
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+FAISS_INDEX_PATH = "data/vector_store/index.faiss"
+METADATA_PATH = "data/vector_store/metadata.json"
+TOP_K = 5
+MIN_SCORE_THRESHOLD = 1.0
+WINDOWS_SIZE = 3
